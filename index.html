@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/test.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <title>Введение в CSS</title>
+</head>
+
+
+    
+    
+<body>
+    <!-- <form action="">
+        <input type="text" placeholder="Name" name="firstname" required>
+        <input type="number" placeholder="Age" name="age" required>
+        <input type="password" placeholder="Password" name="password" required>
+        <input type="email" name="email" required>
+
+        <div class="form">
+            <label>
+                <span>War</span>
+                <input type="radio" name="radio">
+            </label>
+            <label>
+                <span>Fantstic</span>
+                <input type="radio" name="radio">
+            </label>
+            <label for="password">Zapolnit parol</label>
+            
+            <input type="checkbox" name="checkbox" id="password">
+            
+        </div>
+        
+        <input type="submit">
+        <input type="reset">
+
+        <button>Send</button>
+    </form> -->
+    <!-- <div class="container_main"> -->
+
+        
+        <header class="header">
+            <div class="container header_mod">
+
+                <div class="header__logo-wrap">
+                    <img src="./image/logo.svg" alt="logo" class="header__logo-wrap">
+                </div>
+                <!-- a.nav__link*3 -->
+
+                
+                <input type="checkbox" id="burger-line" class="burger-checkbox">
+
+                <label for="burger-line" class="burger"></label>
+                
+                <div class="header_mobile">
+                    <nav class="nav">
+                        <a href="#" class="nav__link">Home</a>  
+                        <a href="#" class="nav__link">About</a>
+                        <a href="#" class="nav__link">Pages</a>
+                    </nav>
+                    <div class="header__basket-wrap">
+                    
+                        <span class="header__basket-img"></span>
+                        <span class="header_basket-counter">0</span>
+
+                        <a href="#" class="btn-orange">Donate now</a>
+                    <!-- <a href="#" class="btn-white">About our chatiry</a> -->
+                    </div>
+                </div>
+                
+
+            </div>
+        </header>
+
+        <main>
+            <section class="promo"> 
+
+                <div class="promo_info">
+
+                    <span class="promo_line"></span>
+                    <h1 class="promo_title">
+                        Giving help to those who need it
+                    </h1>
+                    <p class="promo_text">
+                        Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.
+                    </p>
+                    <div class="promo_button">
+                        <a href="#" class="btn-orange">Donate now</a>
+                        <a href="#" class="btn-white">About our Charity</a>
+                    </div>
+                    
+
+                </div>
+                <div class="promo_img-wrap">
+                    <img src="./image/promo_img.png" alt="promo_img" class="promo_img">
+                </div>
+
+            </section>  
+
+            <section class="about">
+                <div class="container">
+
+                    <div class="about_stats">
+
+                        <div class="about_card">
+                            <p class="about_card-title">200<span class="about_card-yelllow">m</span></p>
+                            <p class="about_card-text">Humans impacted</p>
+                        </div>
+                        <div class="about_card">
+                            <p class="about_card-title">50<span class="about_card-yelllow">k</span></p>
+                            <p class="about_card-text">Collaborators</p>
+                        </div>
+                        <div class="about_card">
+                            <p class="about_card-title">370<span class="about_card-yelllow">k</span></p>
+                            <p class="about_card-text">Donations</p>
+                        </div>
+                        <div class="about_card">
+                            <p class="about_card-title">100<span class="about_card-yelllow">+</span></p>
+                            <p class="about_card-text">Assisted communities</p>
+                        </div>
+
+                    </div>
+
+                    <div class="about_content">
+                        <h3 class="about_content-title">About us</h3>
+
+                        <div class="about_content-header">
+
+                            <h2 class="title title_modify">We are here to support vulnerable communities</h2>
+                            <div class="button">
+                                <a href="#" class="btn-orange">Donate now</a>
+                                <a href="#" class="btn-white">About our Charity</a>
+                            </div>
+                        </div>
+
+                        <div class="about_content-row">
+                            <div class="about_content-col ">
+                                <p class="text about_content-text_modify">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua molestie a iaculis at erat pellentesque adipiscing commodo elit at.</p>
+                                <div class="about_content-img-wrap about_content-img_wrap_modify">
+                                    <img src="./image/about_img-1.png" alt="About_image-1" class="about_content-img">
+                                </div>
+                                <div class="about_content-img-wrap">
+                                    <img src="./image/about_img-3.png" alt="About_image-3" class="about_content-img">
+                                </div>
+                            </div>
+
+                            <div class="about_content-col adaptive">
+                                
+                                <div class="about_content-img-wrap">
+                                    <img src="./image/about_img-2.png" alt="About_image-2" class="about_content-img">
+                                </div>
+                                <div>
+                                    <p class="text about_content-col-text_modify2">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis et netus et malesuada fames urna nec tincidunt praesent semper feugiat metus aliquam eleifend mi in nulla posuere sollicitudin pretium aenean pharetra magna ac placerat.</p>
+                                    <ul class="about_content_list">
+                                        <!-- <li class="text about_content_list-item">
+                                            <img src="./image/about_icon.svg" alt="icon">
+                                            <span>Excepteur sint occaecat cupidatat non proident</span>
+                                        </li> -->
+                                        <li class="text about_content_list-item">Excepteur sint occaecat cupidatat non proident</li>
+                                        <li class="text about_content_list-item">Pellentesque elit ullamcorper dignissim</li>
+                                        <li class="text about_content_list-item">Nibh mauris cursus mattis molestie a iaculis</li>
+                                    </ul>
+                                </div>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="test">
+
+                <div class="test_orange container">
+                    <h4 class="title test_title">Join us and let’s make a better world, today</h4>
+                    <div class="button">
+                        <a href="#" class="btn-orange btn-black">Donate now</a>
+                        <a href="#" class="btn-white">About our Charity</a>
+                    </div>
+                </div>
+
+                <div class="test_bg">
+                    <div class="container">
+                        <div class="test_row">
+                            <div class="test_col">
+                                <div class="promo_img-wrap">
+                                    <img src="./image/test_img.png" alt="promo_img" class="promo_img">
+                                </div>
+
+                                <div class="test_col-white">
+                                    <p class="text text_col-white-text">“Ultrices eros in cursus turpis massa tincidunt sem nulla pharetra diam sit amet nisl suscipit adipis.”</p>
+                                    
+                                    <p class="text test_col-white_modify">Amara Onai</p>
+                                    
+                                    <p class="text">Citizen of South Africa</p>
+                                </div>
+
+                            </div> <!--test_col-->
+
+                            <div class="test_col">
+                                <h3 class="orange_title">Testimonials</h3>
+                                <h2 class="title test_title_modify">See how we are making a difference</h2>
+                                <p class="text">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis etolme netus et malesuada fames urna nec tincidunt praesen</p>
+                            
+                                <ul class="list test_list_modify">
+                                    <li class="list-item">Excepteur sint occaecat cupidatat non proident</li>
+                                    <li class="list-item">Pellentesque elit ullamcorper dignissim</li>
+                                    <li class="list-item">Nibh mauris cursus mattis molestie a iaculis</li>
+                                </ul>
+                                <div class="button">
+                                    <a href="#" class="btn-orange">Donate now</a>
+                                </div>
+                            </div>
+                        </div> <!--test_row-->
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    <!-- </div> -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_row footer_row-mod">
+                <div class="footer_col">
+                    <div class="logo-wrap">
+                        <img src="./image/logo.svg" alt="logo" class="header__logo-wrap">
+                    </div>
+                    <p class="text footer_text_modify">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris.</p>
+                </div>
+                <div class="footer_col">
+                    <p class="footer_text">Menu</p>
+                    <a href="#" class="nav_link footer_nav">Home</a>
+                    <a href="#" class="nav_link footer_nav">About</a>
+                    <a href="#" class="nav_link footer_nav">Blog</a>
+                    <a href="#" class="nav_link footer_nav">Blog post</a>
+                    <a href="#" class="nav_link footer_nav">Donate</a>
+                    <a href="#" class="nav_link footer_nav">Donate Single</a>
+                    <a href="#" class="nav_link footer_nav">Contact</a>
+                    
+                </div>
+                <div class="footer_col">
+                    <p class="footer_text">Utility Page</p>
+                    <a href="#" class="nav_link footer_nav">Start Here</a>
+                    <a href="#" class="nav_link footer_nav">Styleguide</a>
+                    <a href="#" class="nav_link footer_nav">Password Protected</a>
+                    <a href="#" class="nav_link footer_nav">404 Not found</a>
+                    <a href="#" class="nav_link footer_nav">Licenses</a>
+                    <a href="#" class="nav_link footer_nav">Changelog</a>
+                    
+                </div>
+                <div class="footer_col">
+                    <div class="footer_orange container">
+                        <h4 class="footer_title test_title">Join us and let’s make a better world, today</h4>
+                        <div class="button footer_btn">
+                            <a href="#" class="footer_btn-orange footer_btn-black">Donate now</a>
+                            <a href="#" class="footer_btn-white">More ways to help</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foote_copyright"></div>
+        </div>
+    </footer>
+</body>
+</html>
