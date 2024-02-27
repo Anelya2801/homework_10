@@ -88,13 +88,13 @@
         font-size: 16px;
     }
 
-    .text {
-        font-size: 16px;
-    }
-
     .list-item::before{
         width: 22px;
         height: 22px;
+    }
+    .test_bg {
+        padding: 318px 0 152px 0;
+        margin: 0 0 150px 0;
     }
         
 }
@@ -115,12 +115,18 @@
     .test_col {
         margin-top: 100px;
     }
-    .test_bg {
-        padding: 200px 0 252px 0;
-    }
 
     .test_col:last-child {
         padding: 0 50px;
+    }
+    .test_bg {
+        padding: 98px 0 102px 0;
+        margin: 0 0 100px 0;
+    }
+
+    .footer-icon a {
+        padding: 3px 8px;
+        border-radius: 6px;
     }
 }
 
